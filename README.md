@@ -1,9 +1,33 @@
 # InlineFn
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/inline_fn`. To experiment with that code, run `bin/console` for an interactive prompt.
+There are two methods that work on strings. Use `str.inline_mmd` for Multimarkdown style or `str.inline_pandoc` for Pandoc style footnotes.
 
-TODO: Delete this and the text above, and describe your gem
+```ruby
+#!/usr/bin/env ruby
+# frozen_string_literal: false
 
+require 'inline_fn'
+
+text = %(Lorem ipsum dolor sit amet[^1], consectetur adipisicing elit[^2], sed...
+  [^1]: Text of fn 1
+  [^2]: Text of fn 2)
+
+puts text.inline_mmd
+```
+
+
+```ruby
+#!/usr/bin/env ruby
+# frozen_string_literal: false
+
+require 'inline_fn'
+
+text = %(Lorem ipsum dolor sit amet[^1], consectetur adipisicing elit[^2], sed...
+  [^1]: Text of fn 1
+  [^2]: Text of fn 2)
+
+puts text.inline_pandoc
+```
 ## Installation
 
 Add this line to your application's Gemfile:
