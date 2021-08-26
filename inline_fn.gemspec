@@ -10,15 +10,15 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Change markdown footnotes format from `[^1]/[^1]:Note` to inline Pandoc or MMD style `^[Note]/[^Note]`."
   spec.description   = "There are two methods that work on strings. Use `str.inline_mmd` for Multimarkdown style or `str.inline_pandoc` for Pandoc style footnotes."
-  spec.homepage      = "Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/bcdavasconcelos/inline_fn"
   spec.license       = "MIT"
   spec.required_ruby_version = ">= 2.4.0"
 
-  spec.metadata["allowed_push_host"] = "Set to 'https://mygemserver.com'"
+  spec.metadata["allowed_push_host"] = "https://github.com/bcdavasconcelos/inline_fn"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "Put your gem's CHANGELOG.md URL here."
+  spec.metadata["source_code_uri"] = "https://github.com/bcdavasconcelos/inline_fn"
+  spec.metadata["changelog_uri"] = "https://github.com/bcdavasconcelos/inline_fn/blob/master/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
