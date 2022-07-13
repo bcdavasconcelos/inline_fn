@@ -59,13 +59,3 @@ end
 class String
   include InlineFn
 end
-
-
-# text = %(Lorem ipsum dolor sit amet[^1], consectetur adipisicing elit[^2], sed...
-#   [^1]: Text of fn 1
-#   [^2]: Text of fn 2)
-
-# puts inline_fn(text, :mmd)
-# puts inline_fn(text, :pandoc)
-# puts text.inline_fn_pandoc
-# puts text.inline_fn_mmd
