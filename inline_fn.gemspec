@@ -8,12 +8,11 @@ Gem::Specification.new do |spec|
   spec.authors = ["Bernardo C.D.A. Vasconcelos"]
   spec.email = ["35749099+bcdavasconcelos@users.noreply.github.com"]
 
-  spec.summary       = "Change markdown footnotes format from `[^1]/[^1]:Note` to inline Pandoc or MMD style `^[Note]/[^Note]`."
-  spec.description   = "There are two methods that work on strings. Use `str.inline_mmd` for Multimarkdown style or `str.inline_pandoc` for Pandoc style footnotes."
+  spec.summary       = "Inline markdown footnotes"
+  spec.description   = "Gem to convert markdown footnotes to pandoc/mmd-style inline footnotes"
   spec.homepage      = "https://github.com/bcdavasconcelos/inline_fn"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
-
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/bcdavasconcelos/inline_fn.git"

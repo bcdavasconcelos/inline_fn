@@ -1,29 +1,6 @@
 # InlineFn
 
-There are two methods that work on strings. Use `str.inline_mmd` for Multimarkdown style or `str.inline_pandoc` for Pandoc style footnotes.
-
-
-## MMD
-
-```ruby
-#!/usr/bin/env ruby
-# frozen_string_literal: false
-
-require 'inline_fn'
-
-text = %(Lorem ipsum dolor sit amet[^1], consectetur adipisicing elit[^2], sed...
-  [^1]: Text of fn 1
-  [^2]: Text of fn 2)
-
-puts text.inline_mmd
-```
-
-
-### Expected result
-
-```
-Lorem ipsum dolor sit amet[^Text of fn 1], consectetur adipisicing elit[^Text of fn 2], sed...
-```
+There are two methods to change regular markdown footnotes to inline mmd/pandoc-style footnotes.
 
 ## Pandoc
 
@@ -33,17 +10,28 @@ Lorem ipsum dolor sit amet[^Text of fn 1], consectetur adipisicing elit[^Text of
 
 require 'inline_fn'
 
-text = %(Lorem ipsum dolor sit amet[^1], consectetur adipisicing elit[^2], sed...
+str = %(Lorem ipsum dolor sit amet[^1], consectetur adipisicing elit[^2], sed...
   [^1]: Text of fn 1
   [^2]: Text of fn 2)
 
-puts text.inline_pandoc
+puts str.inline_fn_pandoc
+# Lorem ipsum dolor sit amet^[Text of fn 1], consectetur adipisicing elit^[Text of fn 2], sed...
 ```
 
-### Expected result
+## MMD
 
-```
-Lorem ipsum dolor sit amet^[Text of fn 1], consectetur adipisicing elit^[Text of fn 2], sed...
+```ruby
+#!/usr/bin/env ruby
+# frozen_string_literal: false
+
+require 'inline_fn'
+
+str = %(Lorem ipsum dolor sit amet[^1], consectetur adipisicing elit[^2], sed...
+  [^1]: Text of fn 1
+  [^2]: Text of fn 2)
+
+puts str.inline_fn_mmd
+# Lorem ipsum dolor sit amet[^Text of fn 1], consectetur adipisicing elit[^Text of fn 2], sed...
 ```
 
 ## Installation

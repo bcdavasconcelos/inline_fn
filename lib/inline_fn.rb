@@ -2,11 +2,11 @@
 
 require_relative "inline_fn/version"
 
+# Change markdown footnotes format from `[^1]/[^1]:Note` to inline Pandoc or MMD style `^[Note]/[^Note]`.
 module InlineFn
   class Error < StandardError; end
 
   def inline_fn(str, style = :pandoc)
-    cut_point = ""
     ref_start = ""
     text = str
     counter = 0
