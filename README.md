@@ -1,4 +1,4 @@
-# InlineFn
+# Inline Markdown Footnotes
 
 [![Ruby](https://github.com/bcdavasconcelos/inline_fn/actions/workflows/main.yml/badge.svg)](https://github.com/bcdavasconcelos/inline_fn/actions/workflows/main.yml)
 
