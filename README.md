@@ -1,5 +1,7 @@
 # InlineFn
 
+[![Ruby](https://github.com/bcdavasconcelos/inline_fn/actions/workflows/main.yml/badge.svg)](https://github.com/bcdavasconcelos/inline_fn/actions/workflows/main.yml)
+
 There are two methods to change regular markdown footnotes to inline mmd/pandoc-style footnotes.
 
 ## Pandoc
