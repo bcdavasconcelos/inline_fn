@@ -1,6 +1,6 @@
 # Inline Markdown Footnotes
 
-[![Ruby](https://github.com/bcdavasconcelos/inline_fn/actions/workflows/main.yml/badge.svg)](https://github.com/bcdavasconcelos/inline_fn/actions/workflows/main.yml)
+[![Ruby](https://github.com/bcdavasconcelos/inline_fn/actions/workflows/main.yml/badge.svg)](https://github.com/bcdavasconcelos/inline_fn/actions/workflows/main.yml) [![Gem Version](https://badge.fury.io/rb/inline_fn.svg)](https://badge.fury.io/rb/inline_fn)
 
 There are two methods to change regular markdown footnotes to inline mmd/pandoc-style footnotes.
 
