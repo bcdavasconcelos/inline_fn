@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca42f8e7-82dc-4786-8148-99f859f55553" name="Changes" comment="2022-07-13-03-31">
-      <change beforePath="$PROJECT_DIR$/.idea/inline_fn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inline_fn.iml" afterDir="false" />
+    <list default="true" id="ca42f8e7-82dc-4786-8148-99f859f55553" name="Changes" comment="2022-07-13-20-54">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.rubocop.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.rubocop.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rakefile" beforeDir="false" afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/console" beforeDir="false" afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inline_fn.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/inline_fn.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/inline_fn.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/inline_fn.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/inline_fn/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/inline_fn/version.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_inline_fn.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_inline_fn.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +135,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657691753423</updated>
-      <workItem from="1657691754700" duration="3834000" />
+      <workItem from="1657691754700" duration="5726000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1657693651385</created>
@@ -160,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657693913655</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2022-07-13-20-54">
+      <created>1657756484127</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657756484127</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +178,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="2022-07-13-03-31" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-07-13-03-31" />
+    <MESSAGE value="2022-07-13-20-54" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-07-13-20-54" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/inline_fn@test_inline_fn_pandoc.rcov" NAME="test_inline_fn_pandoc Coverage Results" MODIFIED="1657693539353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="inline_fn" />
